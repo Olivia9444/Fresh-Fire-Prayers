@@ -84,6 +84,11 @@ h2 { margin-bottom: 0; font-size: clamp(43px, 6vw, 74px); line-height: 0.95; }
 .prayer-card a { margin-top: auto; color: var(--yellow); text-transform: uppercase; text-decoration: none; font-size: 11px; font-weight: 700; letter-spacing: 0.12em; }
 .prayer-card.featured a { color: var(--deep-red); }
 .prayer-card a span { margin-left: 12px; font-size: 17px; }
+.sisters-section { display: grid; grid-template-columns: 100px 1fr; gap: 30px; align-items: start; padding: 74px 0; border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); }
+.sisters-mark { display: grid; place-items: center; width: 78px; height: 78px; color: var(--deep-red); background: var(--yellow); font-size: 39px; line-height: 1; }
+.sisters-section h2 { font-size: clamp(40px, 5vw, 62px); }
+.sisters-copy { max-width: 650px; margin: 24px 0 0; color: #ffe8dc; font-size: 16px; line-height: 1.6; }
+.sisters-copy strong { color: var(--yellow); }
 .share-section { padding: 62px 0; display: flex; align-items: center; justify-content: space-between; gap: 30px; border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); }
 .share-section h2 { font-size: clamp(38px, 5vw, 60px); }
 .secondary-button { margin-top: 0; color: var(--yellow); background: transparent; }
@@ -114,6 +119,7 @@ h2 { margin-bottom: 0; font-size: clamp(43px, 6vw, 74px); line-height: 0.95; }
   .prayer-section { padding: 65px 0 75px; }
   .prayer-grid { grid-template-columns: 1fr; margin-top: 38px; }
   .prayer-card { min-height: 285px; }
+  .sisters-section { grid-template-columns: 1fr; gap: 25px; padding: 58px 0; }
   .share-section { display: block; padding: 48px 0; }
   .share-section .secondary-button { margin-top: 28px; }
   .support-section { grid-template-columns: 1fr; gap: 48px; padding: 58px 0; }
